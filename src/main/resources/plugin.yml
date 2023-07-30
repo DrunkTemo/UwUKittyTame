@@ -1,0 +1,7 @@
+name: UwUKittyTame
+version: '${project.version}'
+main: me.temo.uwukittytame.UwUKittyTame
+api-version: '1.16'
+authors: [DrunkTemo]
+description: я хз
+website: https://vk.com/watafakers
