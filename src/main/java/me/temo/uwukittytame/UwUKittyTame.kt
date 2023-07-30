@@ -28,13 +28,13 @@ class UwUKittyTame : JavaPlugin(), Listener {
             if (config.getString("locale") == "ru") {
                 if (kormlenie.entity is Cat) {
                     player.sendMessage("теперь вы стали Уву! кошачья партия гордится тобой. UwU")
-                    println(ChatColor.LIGHT_PURPLE.toString() + "СамыйНяшниМаглин >> " + ChatColor.WHITE + player.name + " приручил котика!!!!!")
+                    println(ChatColor.LIGHT_PURPLE.toString() + "СамыйНяшниПлагин >> " + ChatColor.WHITE + player.name + " приручил котика!!!!!")
                 } else if (kormlenie.entity is Ocelot) {
                     player.sendMessage("ваша душа наполняется силой Уву.")
-                    println(ChatColor.LIGHT_PURPLE.toString() + "СамыйНяшниМаглин >> " + ChatColor.WHITE + player.name + " покормил оцелотика!!!!")
+                    println(ChatColor.LIGHT_PURPLE.toString() + "СамыйНяшниПлагин >> " + ChatColor.WHITE + player.name + " покормил оцелотика!!!!")
                 } else if (kormlenie.entity is Parrot) {
                     player.sendMessage("эта пчирикалка теперь только ваша.")
-                    println(ChatColor.LIGHT_PURPLE.toString() + "СамыйНяшниМаглин >> " + ChatColor.WHITE + player.name + " сделал ручную пчирикалку!!!!")
+                    println(ChatColor.LIGHT_PURPLE.toString() + "СамыйНяшниПлагин >> " + ChatColor.WHITE + player.name + " сделал ручную пчирикалку!!!!")
                 }
             } else if (config.getString("locale") == "en") {
                 if (kormlenie.entity is Cat) {
